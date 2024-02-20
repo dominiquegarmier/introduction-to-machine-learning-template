@@ -1,0 +1,14 @@
+{
+    "name": "Python Environment",
+    "context": "..",
+    "build": {
+        "dockerfile": "Dockerfile",
+    },
+    "settings": {
+        "[python]": {
+            "editor.defaultFormatter": "ms-python.black-formatter",
+            "editor.formatOnSave": true
+        } 
+    },
+    "extensions": ["ms-python.python", "ms-python.vscode-pylance", "ms-python.black-formatter"]
+}
